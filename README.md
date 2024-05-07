@@ -42,3 +42,6 @@ This command will display detailed information about the Pod named your-pod in t
 ```kubectl describe pod your-pod -n your-namespace```
 
 
+13. **Cleanup:**
+To remove all resources created by this deployment, you can delete the Kubernetes objects:
+```kubectl delete -f your-deployment.yaml```
